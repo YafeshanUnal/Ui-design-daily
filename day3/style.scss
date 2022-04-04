@@ -1,0 +1,95 @@
+body{
+    background-color: #34342c;
+}
+
+.back-card{
+    display: flex;
+    flex-direction: column;
+    background-color: #FAD364;
+    border-radius: 16px;
+    margin: 150px;
+    margin-left: 200px;
+    width: 500px;
+    height: 300px;
+
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    border-radius: 16px;
+    background-color: #fff;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+
+    
+}
+
+header{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+aside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+}
+
+button{
+    background-color: #34342c;
+    width: 250px;
+    height: 45px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-left: 30px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer{
+    margin-left: 30px;
+    color:blue;
+}
+
+.time-card{
+    text-align: center;
+    background-color:#FAD364;
+    height: 200px;
+    margin-left: 200px;
+    width: 500px;
+    border-radius: 8px;
+    font-size: medium;
+    margin-bottom: 50px;
+
+    .header{
+        padding-top: 30px;
+    }
+    .progress-bar{
+        margin: 35px;
+
+        .outer{
+            border-radius: 8px;
+            display: flex;
+            background-color: white;
+            position: relative;
+            .inner{
+                border-radius: 8px;
+                display: flex;
+                position: absolute;
+                background-color: blue;
+                width: 20%;
+            }
+        }
+    }
+}

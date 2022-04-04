@@ -1,0 +1,117 @@
+body {
+  background-color: #34342c;
+}
+
+.back-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #FAD364;
+  border-radius: 16px;
+  margin: 150px;
+  margin-left: 200px;
+  width: 500px;
+  height: 300px;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  border-radius: 16px;
+  background-color: #fff;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 20px;
+}
+
+button {
+  background-color: #34342c;
+  width: 250px;
+  height: 45px;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-left: 30px;
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+  margin-left: 30px;
+  color: blue;
+}
+
+.time-card {
+  text-align: center;
+  background-color: #FAD364;
+  height: 200px;
+  margin-left: 200px;
+  width: 500px;
+  border-radius: 8px;
+  font-size: medium;
+  margin-bottom: 50px;
+}
+
+.time-card .header {
+  padding-top: 30px;
+}
+
+.time-card .progress-bar {
+  margin: 35px;
+}
+
+.time-card .progress-bar .outer {
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  position: relative;
+}
+
+.time-card .progress-bar .outer .inner {
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  background-color: blue;
+  width: 20%;
+}
+/*# sourceMappingURL=style.css.map */
